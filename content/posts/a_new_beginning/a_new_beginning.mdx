@@ -1,29 +1,12 @@
 ---
-title: Fantastic Beasts and Where to Find Them
-date: 2019-11-01
+title: A new beginning
+date: 2021-09-22
 tags:
-  - Novel
+  - Test
+  - React
 ---
 
-import SpotifyPlayer from "./SpotifyPlayer";
-
-Here will a React component go:
-
-<SpotifyPlayer
-  uri="spotify:user:bbcamerica:playlist:3w18u69NplCpXVG4fQG726"
-  size="large"
-  theme="black"
-  view="list"
-/>
-
-Here will a live code example go:
-
-```js react-live
-const onClick = () => {
-  alert("You opened me");
-};
-render(<button onClick={onClick}>Alohomora!</button>);
-```
+This is one of the starter files, renamed but kept to show how we can add code!
 
 Here will a normal code block go:
 
@@ -62,17 +45,17 @@ A code block with a JSDoc comment, short, and long comment:
  * @example removeLastThree('6rem') => 6
  */
 const getValue = (input, rootFontSize = 16) => {
-  if (typeof input === `number`) {
-    return input / rootFontSize;
-  }
+	if (typeof input === `number`) {
+		return input / rootFontSize;
+	}
 
-  const isPxValue = input.slice(-2) === `px`;
+	const isPxValue = input.slice(-2) === `px`;
 
-  if (isPxValue) {
-    return parseFloat(input.slice(0, -2));
-  }
+	if (isPxValue) {
+		return parseFloat(input.slice(0, -2));
+	}
 
-  return parseFloat(input.slice(0, -3));
+	return parseFloat(input.slice(0, -3));
 };
 
 // This is a little helper function
